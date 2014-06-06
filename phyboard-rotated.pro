@@ -1,4 +1,4 @@
-update=fre  6 jun 2014 10:14:44
+update=fre  6 jun 2014 11:52:00
 last_client=pcbnew
 [pcbnew]
 version=1
@@ -23,3 +23,4 @@ ModuleOutlineThickness="    0,203200"
 LibDir=
 LibName1=QFP50P900X900-48N+1mm
 LibName2=standard-qfp-M
+LibName3=monkey
