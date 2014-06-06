@@ -34,13 +34,13 @@ LIBS:ti-phy
 LIBS:magjack
 LIBS:phyboard-cache
 LIBS:phyboard-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "18 jun 2013"
+Date "5 jun 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -147,13 +147,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 4150 9100 4150
 Wire Wire Line
-	8500 3750 9100 3750
-Wire Wire Line
-	8500 3650 9100 3650
-Wire Wire Line
 	5350 2750 6100 2750
-Wire Wire Line
-	6100 3850 5500 3850
 Wire Wire Line
 	6100 5350 5550 5350
 Wire Wire Line
@@ -209,8 +203,6 @@ Wire Wire Line
 	8500 1250 8500 1450
 Wire Wire Line
 	10850 1900 10850 1800
-Wire Wire Line
-	8300 1750 8500 1750
 Wire Wire Line
 	2350 4750 2900 4750
 Wire Wire Line
@@ -861,34 +853,12 @@ $EndComp
 NoConn ~ 6100 4650
 Text Label 5550 3850 0    60   ~ 0
 RXERR
-$Comp
-L TST P2
-U 1 1 51BF3947
-P 5500 3850
-F 0 "P2" H 5500 4150 40  0000 C CNN
-F 1 "TST" H 5500 4100 30  0000 C CNN
-F 2 "" H 5500 3850 60  0001 C CNN
-F 3 "" H 5500 3850 60  0001 C CNN
-	1    5500 3850
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 6100 3650
 NoConn ~ 6100 2950
 NoConn ~ 6100 4350
 NoConn ~ 6100 4250
 NoConn ~ 6100 3450
 NoConn ~ 6100 3350
-$Comp
-L TST P3
-U 1 1 51BF38B7
-P 8300 1750
-F 0 "P3" H 8300 2050 40  0000 C CNN
-F 1 "TST" H 8300 2000 30  0000 C CNN
-F 2 "" H 8300 1750 60  0001 C CNN
-F 3 "" H 8300 1750 60  0001 C CNN
-	1    8300 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L GND #PWR027
 U 1 1 51BF389C
@@ -933,38 +903,12 @@ F 3 "" H 9200 4150 60  0001 C CNN
 	1    9200 4150
 	0    -1   -1   0   
 $EndComp
-Text Label 8600 3750 0    60   ~ 0
-PWN_DN
-$Comp
-L TST P5
-U 1 1 51BF381B
-P 9100 3750
-F 0 "P5" H 9100 4050 40  0000 C CNN
-F 1 "TST" H 9100 4000 30  0000 C CNN
-F 2 "" H 9100 3750 60  0001 C CNN
-F 3 "" H 9100 3750 60  0001 C CNN
-	1    9100 3750
-	0    1    1    0   
-$EndComp
-Text Label 8600 3650 0    60   ~ 0
-RST
 NoConn ~ 8500 3450
 NoConn ~ 8500 3350
 NoConn ~ 8500 3250
 NoConn ~ 8500 3150
 NoConn ~ 8500 3050
 NoConn ~ 6100 5450
-$Comp
-L TST P4
-U 1 1 51BF3701
-P 9100 3650
-F 0 "P4" H 9100 3950 40  0000 C CNN
-F 1 "TST" H 9100 3900 30  0000 C CNN
-F 2 "" H 9100 3650 60  0001 C CNN
-F 3 "" H 9100 3650 60  0001 C CNN
-	1    9100 3650
-	0    1    1    0   
-$EndComp
 $Comp
 L +3.3V #PWR031
 U 1 1 51BF36CB
@@ -1187,4 +1131,8 @@ F 3 "" H 9200 3950 60  0001 C CNN
 	1    9200 3950
 	0    1    1    0   
 $EndComp
+NoConn ~ 8500 3650
+NoConn ~ 8500 3750
+NoConn ~ 8500 1750
+NoConn ~ 6100 3850
 $EndSCHEMATC
