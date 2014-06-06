@@ -1,13 +1,13 @@
-update=tor  5 jun 2014 18:49:25
+update=fre  6 jun 2014 10:14:44
 last_client=pcbnew
 [pcbnew]
 version=1
 LastNetListRead=phyboard.net
 UseCmpFile=1
-PadDrill="    1,143000"
-PadDrillOvalY="    1,143000"
-PadSizeH="    1,651000"
-PadSizeV="    1,651000"
+PadDrill="    6,500000"
+PadDrillOvalY="    6,500000"
+PadSizeH="    7,000000"
+PadSizeV="    7,000000"
 PcbTextSizeV="    1,016000"
 PcbTextSizeH="    1,016000"
 PcbTextThickness="    0,304800"
@@ -22,3 +22,4 @@ ModuleOutlineThickness="    0,203200"
 [pcbnew/libraries]
 LibDir=
 LibName1=QFP50P900X900-48N+1mm
+LibName2=standard-qfp-M
